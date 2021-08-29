@@ -1,0 +1,132 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "b_settings" : 1,
+                "b_vr_controllers" : 0,
+                "b_renderer" : 0,
+                "b_aa" : 1,
+                "b_colorManagement" : 1,
+                "b_physicallyCorrectLights" : 1,
+                "b_player" : 0,
+                "b_interactive" : 0,
+                "b_bake_lightmap" : 0,
+                "b_export" : 1,
+                "s_project_name" : "Model-viewer_test",
+                "s_output" : "exporting...",
+                "jiggle_rate" : 1
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cono"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "mat_cono_amarillo",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.7032945156097412,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cono",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 65,
+            "max" : [
+                1.8453482389450073,
+                3.578857183456421,
+                1.8453482389450073
+            ],
+            "min" : [
+                -1.8453482389450073,
+                -0.11183930188417435,
+                -1.8453482389450073
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 65,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 65,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 186,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 780,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 780,
+            "byteOffset" : 780
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 520,
+            "byteOffset" : 1560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 372,
+            "byteOffset" : 2080
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2452,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
+}
