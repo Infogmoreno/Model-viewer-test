@@ -45,7 +45,7 @@
     const modelViewer = document.querySelector("model-viewer");
   
     window.switchSrc = (element, name) => {
-      const base = "https://laserscanning.s3.eu-west-2.amazonaws.com/landing/" + name;
+      const base = "assets/ShopifyModels/" + name;
       modelViewer.src = base + '.glb';
       modelViewer.poster = base + '.png';
       const slides = document.querySelectorAll(".slide");
